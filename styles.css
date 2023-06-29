@@ -62,6 +62,11 @@ h1 {
     margin: 20px;
 }
 
+.newarray:hover {
+    box-shadow: 6px 6px 4px 0px rgba(0, 0, 0, 0.40);
+    transition-duration: .5s;
+}
+
 .combo {
     font-family: 'Arimo', sans-serif;
     font-size: 15px;
@@ -73,6 +78,11 @@ h1 {
     color: #5E72E4;
     border: 1px solid #5E72E4;
     margin: 20px;
+}
+
+.combo:hover {
+    box-shadow: 6px 6px 4px 0px rgba(0, 0, 0, 0.40);
+    transition-duration: .5s;
 }
 
 h2 {
