@@ -1,4 +1,4 @@
-/*function getnewarray () {
+/* function getnewarray () {
 
   const randomArr = Array.from({length: 9},
      
@@ -29,10 +29,10 @@
     document.getElementById("comboo").innerHTML = JSON.stringify(result);
 
      return result;
-  };*/
+  }; */
 
   
-   
+  
     
     let array;
 
@@ -42,12 +42,15 @@
       return randomArr;
     }
     
+    
     function findCombinations(array) {
       const result = [];
     
       function isCombinationSum21(combination) {
         return combination.reduce((sum, num) => sum + num, 0) === 21;
       }
+
+     
     
       for (let i = 0; i < array.length; i++) {  //this is where the problem is keep gettting the error "Uncaught TypeError: Cannot read properties of undefined (reading 'length')"
         for (let j = i + 1; j < array.length; j++) {
